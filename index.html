@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>PlaceJS</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+        <script>
+            var script = document.createElement('script');
+            script.src = "place.js?"+Math.random();
+            document.write(script.outerHTML);
+        </script>
+	</head>
+	<body>
+        <script>
+            document.write("<p>hi</p>");
+            document.write("<img src='"+ PlaceJS.img( 100 , 200 ) +"' />");
+            document.write("<img src='"+ PlaceJS.img( 300 , 200 ) +"' />");
+            document.write("<img src='"+ PlaceJS.img( 100 , 50 ) +"' />");
+            document.write("<img src='"+ PlaceJS.img( 100 , 20 ) +"' />");
+        </script>
+    </body>
+</html>

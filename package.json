@@ -1,0 +1,23 @@
+{
+	"name": "placejs",
+	"description": "Generates placeholder images client side (more portable).",
+	"author": "srouse",
+	"version": "0.0.2",
+	"dependencies": {
+	},
+	"devDependencies": {
+	},
+	"main": "place.js",
+	"scripts": {
+	    "test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/srouse/placejs"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://rouse.studio/bugs"
+	},
+	"homepage": "https://rouse.studio"
+}
