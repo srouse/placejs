@@ -1,9 +1,8 @@
 
 
 
-var _PlaceJS = function () {}
 
-_PlaceJS.prototype.img = function ( width, height ) {
+var PlaceJS = function ( width, height, type ) {
 
     var canvas = document.createElement('canvas');
     canvas.width = width;
@@ -22,9 +21,10 @@ _PlaceJS.prototype.img = function ( width, height ) {
 
     delete canvas_dom;
 
-    return img_info;
+    if ( type == "img" ) {
+        return "<img src='" + img_info + "' />";
+    }else{
+        return img_info;
+    }
 
 }
-
-
-var PlaceJS = new _PlaceJS();
